@@ -1,7 +1,7 @@
 {
-  "app_id": "com.moodle.moodlemobile",
-  "appname": "AVA Pós Graduação - UFMT",
-  "desktopappname": "AVA Pós Graduação - UFMT",
+  "app_id": "br.ufmt.pos.moodle",
+  "appname": "AVA Pós Graduação",
+  "desktopappname": "AVA Pós Graduação",
   "versioncode": 3910,
   "versionname": "3.9.1",
   "cache_update_frequency_usually": 420000,
@@ -81,11 +81,11 @@
   "statusbarlighttextremotetheme": true,
   "enableanalytics": false,
   "enableonboarding": true,
-  "forceColorScheme": "",
+  "forceColorScheme": "Light",
   "ioswebviewscheme": "moodleappfs",
   "appstores": {
-    "android": "com.moodle.moodlemobile",
-    "ios": "id633359593",
+    "android": "br.ufmt.pos.moodle",
+    "ios": "br.ufmt.pos.moodle",
     "windows": "moodle-desktop/9p9bwvhdc8c8",
     "mac": "id1255924440",
     "linux": "https://download.moodle.org/desktop/download.php?platform=linux&arch=64"

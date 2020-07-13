@@ -12,22 +12,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
-import { CoreLoginCredentialsPage } from './credentials';
-import { TranslateModule } from '@ngx-translate/core';
-import { CoreComponentsModule } from '@components/components.module';
-import { CoreDirectivesModule } from '@directives/directives.module';
+import { NgModule } from "@angular/core";
+import { IonicPageModule } from "ionic-angular";
+import { CoreLoginCredentialsPage } from "./credentials";
+import { TranslateModule } from "@ngx-translate/core";
+import { CoreComponentsModule } from "@components/components.module";
+import { CoreDirectivesModule } from "@directives/directives.module";
 
 @NgModule({
-    declarations: [
-        CoreLoginCredentialsPage
-    ],
-    imports: [
-        CoreComponentsModule,
-        CoreDirectivesModule,
-        IonicPageModule.forChild(CoreLoginCredentialsPage),
-        TranslateModule.forChild()
-    ]
+  declarations: [CoreLoginCredentialsPage],
+  imports: [
+    CoreComponentsModule,
+    CoreDirectivesModule,
+    IonicPageModule.forChild(CoreLoginCredentialsPage),
+    TranslateModule.forChild(),
+  ],
 })
 export class CoreLoginCredentialsPageModule {}

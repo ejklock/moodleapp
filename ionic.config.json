@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "ufmtavaposgraduacao",
   "integrations": {
     "cordova": {},
     "gulp": {}
   },
   "type": "ionic-angular",
   "watchPatterns": [],
-  "id": "com.moodle.moodlemobile"
+  "id": "br.ufmt.pos.moodle"
 }
