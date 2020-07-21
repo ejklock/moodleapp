@@ -1,6 +1,6 @@
 {
   "name": "ufmtavaposgraduacao",
-  "version": "3.9.1",
+  "version": "3.9.2",
   "description": "Aplicativo Ava Pós Graduação da UFMT",
   "author": {
     "name": "SETEC-UFMT",
@@ -266,7 +266,7 @@
       "category": "public.app-category.education",
       "icon": "resources/desktop/icon.icns",
       "target": "mas",
-      "bundleVersion": "3.9.1",
+      "bundleVersion": "3.9.2",
       "extendInfo": {
         "ElectronTeamID": "2NU57U5PAW"
       }
