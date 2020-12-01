@@ -26,7 +26,11 @@ ion-app.app-root page-core-login-site {
         }
     }
 
-    .item p, .item h2, .item h3, .list .item.core-oauth-icon .label, .text-input {
+    .item p,
+    .item h2,
+    .item h3,
+    .list .item.core-oauth-icon .label,
+    .text-input {
         color: $core-login-page-text-color;
         @include darkmode() {
             color: $core-dark-login-page-text-color;
@@ -37,11 +41,14 @@ ion-app.app-root page-core-login-site {
         max-width: 100%;
     }
 
-    .core-sitename, .core-siteurl {
-        @if $core-fixed-url { display: none; }
+    .core-sitename,
+    .core-siteurl {
+        @if $core-fixed-url {
+            display: none;
+        }
     }
 
-    .core-sitename + .core-siteurl  {
+    .core-sitename + .core-siteurl {
         margin-top: 0;
     }
 
@@ -50,7 +57,8 @@ ion-app.app-root page-core-login-site {
     }
 
     @if $core-login-button-outline {
-        .button-md.button-default-md, .button-ios.button-default-ios {
+        .button-md.button-default-md,
+        .button-ios.button-default-ios {
             @extend .button-md-light;
         }
     }
@@ -59,14 +67,16 @@ ion-app.app-root page-core-login-site {
         .core-loading-container {
             color: $core-login-loading-color;
 
-            .spinner circle, .spinner line {
+            .spinner circle,
+            .spinner line {
                 stroke: $core-login-loading-color;
             }
         }
     }
 
     @if $core-dark-login-button-outline {
-        .button-md.button-default-md, .button-ios.button-default-ios {
+        .button-md.button-default-md,
+        .button-ios.button-default-ios {
             @extend .button-md-light;
         }
     }
@@ -75,7 +85,8 @@ ion-app.app-root page-core-login-site {
         .core-loading-container {
             color: $core-dark-login-loading-color;
 
-            .spinner circle, .spinner line {
+            .spinner circle,
+            .spinner line {
                 stroke: $core-dark-login-loading-color;
             }
         }
@@ -85,7 +96,6 @@ ion-app.app-root page-core-login-site {
         margin-bottom: 20px;
     }
 
-
     .core-login-form .item,
     .core-login-form .item-inner {
         background-color: $core-login-input-item-background-color;
@@ -93,7 +103,8 @@ ion-app.app-root page-core-login-site {
             background-color: $core-dark-input-login-item-background-color;
         }
 
-        p, input {
+        p,
+        input {
             color: $core-login-input-item-text-color;
             @include darkmode() {
                 color: $core-dark-input-login-item-text-color;
@@ -118,7 +129,7 @@ ion-app.app-root page-core-login-site {
     }
 
     .core-login-site-logo {
-        width: 90%;
+        width: 100%;
         max-width: 300px;
         margin: 5px auto;
     }

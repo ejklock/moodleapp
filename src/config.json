@@ -1,14 +1,14 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "app_id": "br.ufmt.setec.ava.graduacao",
+    "appname": "Ava Graduação EaD",
+    "desktopappname": "Ava Graduação EaD",
     "versioncode": 3930,
     "versionname": "3.9.3",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
     "cache_update_frequency_rarely": 43200000,
-    "default_lang": "en",
+    "default_lang": "pt-br",
     "languages": {
         "ar": "عربي",
         "bg": "Български",
@@ -63,51 +63,36 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    "demo_sites": {
-        "student": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle"
-        }
-    },
-    "font_sizes": [
-        62.5,
-        75.89,
-        93.75
-    ],
+    "demo_sites": {},
+    "font_sizes": [62.5, 75.89, 93.75],
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
-    "sitename": "",
+    "siteurl": "https://setec.ufmt.br/ava/graduacao-ead/",
+    "sitename": "Ava Graduação EaD UFMT",
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "skipssoconfirmation": false,
-    "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/moodle.net\/moodle-app-privacy\/",
-    "notificoncolor": "#f98012",
+    "forcedefaultlanguage": true,
+    "privacypolicy": "http://sistemas.ufmt.br/legal/mobile.html",
+    "notificoncolor": "#02476E",
     "statusbarbg": false,
     "statusbarlighttext": false,
-    "statusbarbgios": "#f98012",
+    "statusbarbgios": "#02476E",
     "statusbarlighttextios": true,
-    "statusbarbgandroid": "#df7310",
+    "statusbarbgandroid": "#02476E",
     "statusbarlighttextandroid": true,
     "statusbarbgremotetheme": "#000000",
     "statusbarlighttextremotetheme": true,
     "enableanalytics": false,
     "enableonboarding": true,
-    "forceColorScheme": "",
+    "forceColorScheme": "Light",
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
+        "android": "br.ufmt.setec.ava.graduacao",
         "ios": "id633359593",
-        "windows": "moodle-desktop\/9p9bwvhdc8c8",
+        "windows": "moodle-desktop/9p9bwvhdc8c8",
         "mac": "id1255924440",
-        "linux": "https:\/\/download.moodle.org\/desktop\/download.php?platform=linux&arch=64"
+        "linux": "https://download.moodle.org/desktop/download.php?platform=linux&arch=64"
     }
 }
