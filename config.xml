@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="39300" id="br.ufmt.setec.ava.graduacao" ios-CFBundleVersion="3.9.3.0" version="3.9.3" versionCode="39300" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Ava Graduação EaD UFMT</name>
-    <description>Ava Graduação EaD UFMT</description>
+<widget android-versionCode="39300" id="br.ufmt.setec.ava.posgraduacao" ios-CFBundleVersion="3.9.3.0" version="3.9.3" versionCode="39300" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ava Pós-Graduação EaD</name>
+    <description>Ava Pós-Graduação EaD</description>
     <author email="setec@ufmt.br" href="https://setec.ufmt.br">SETEC-UFMT</author>
     <content src="index.html" />
     <access origin="*" />
